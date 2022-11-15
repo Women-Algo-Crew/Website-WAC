@@ -10,3 +10,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run check
+  React-Component-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm test
